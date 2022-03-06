@@ -1,0 +1,14 @@
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.exe
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.deps.json
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.runtimeconfig.json
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.runtimeconfig.dev.json
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.dll
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.pdb
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.csproj.AssemblyReference.cache
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.AssemblyInfoInputs.cache
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.AssemblyInfo.cs
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.csproj.CoreCompileInputs.cache
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.dll
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.pdb
+C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.genruntimeconfig.cache
