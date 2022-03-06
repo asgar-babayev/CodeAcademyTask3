@@ -222,9 +222,9 @@ namespace MethodTasks
         //    return false;
         //}
 
-        //static bool HasLetter(string inputText, string word)   <-- Overload tasklarına aid olduğu üçün overload ilə yazdım amma tək bu metod hər iki işi görür həm simvol həm də sözü tapır. -->
-        //{
-        //    foreach (var text in inputText.ToLower())
+        //static bool HasLetter(string inputText, string word)   //Overload tasklarına aid olduğu üçün overload ilə yazdım
+        //{                                                      //amma tək bu metod hər iki işi görür həm simvol həm də sözü tapır.
+        //    foreach (var text in inputText.ToLower())          // Yuxarıdakı metoda ehtiyac qalmır.
         //    {
         //        for (int i = 0; i < word.Length; i++)
         //        {
