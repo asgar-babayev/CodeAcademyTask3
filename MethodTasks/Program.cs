@@ -147,22 +147,15 @@ namespace MethodTasks
         #region Task 3. VowelLetter yaradılır. Daxil olunan mətndə neçə sait hərf olduğunu tapsın
         //static int VowelLetter(string input)
         //{
-        //    char[] characters = { 'a', 'o', 'u', 'e', 'i' };
         //    int count = 0;
-        //    foreach (int text in input.ToLower())
+        //    foreach (var vowels in input.ToLower())
         //    {
-        //        foreach (int vowels in characters)
-        //        {
-        //            if (text == vowels)
-        //            {
-        //                count++;
-        //            }
-        //        }
+        //        if (vowels == 'a' || vowels == 'e' || vowels == 'i' || vowels == 'o' || vowels == 'u') 
+        //            count++;
         //    }
         //    return count;
         //}
-
-        //static void Print(int result)
+        //static void PrintVowelLetter(int result)
         //{
         //    if (result == 0)
         //        Console.WriteLine("Bu text-də sait yoxdur.");
@@ -209,8 +202,7 @@ namespace MethodTasks
         {
             if (a > 0 && b > 0 && c > 0 && r > 0)
             {
-                int p = (a + b + c) / 2;
-                return p * r;
+                return ((a + b + c) / 2) * r;
             }
             else
                 return -1;
@@ -246,14 +238,14 @@ namespace MethodTasks
         //}
         #endregion
 
-        #region Print Method
-        static void Print(int result)
-        {
-            if (result == -1)
-                Console.WriteLine("0 və mənfi ədəd ola bilməz.");
-            else
-                Console.WriteLine(result);
-        }
+        #region Print. Sahə Taskları üçün print metodu
+        //static void Print(int result)
+        //{
+        //    if (result == -1)
+        //        Console.WriteLine("0 və mənfi ədəd ola bilməz.");
+        //    else
+        //        Console.WriteLine(result);
+        //}
         #endregion
 
         #endregion
