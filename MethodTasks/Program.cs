@@ -147,7 +147,7 @@ namespace MethodTasks
         #region Task 3. VowelLetter yaradılır. Daxil olunan mətndə neçə sait hərf olduğunu tapsın
         //static int VowelLetter(string input)
         //{
-        //    char[] characters = { 'a', 'ı', 'o', 'u', 'e', 'ə', 'i', 'ö', 'ü' };
+        //    char[] characters = { 'a', 'o', 'u', 'e', 'i' };
         //    int count = 0;
         //    foreach (int text in input.ToLower())
         //    {
