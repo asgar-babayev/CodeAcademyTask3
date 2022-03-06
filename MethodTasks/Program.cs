@@ -180,7 +180,7 @@ namespace MethodTasks
         #region Task 2. Düzbucaqlının sahəsi
         static int Area(int a, int b)
         {
-            if (a > 0 && b > 0)
+            if (a > 0 || b > 0)
                 return a * b;
             else
                 return -1;
@@ -190,7 +190,7 @@ namespace MethodTasks
         #region Task 3. Düzbucaqlı paralelpipedin tam səthinin sahəsi
         static int Area(int a, int b, int c)
         {
-            if (a > 0 && b > 0 && c > 0)
+            if (a > 0 || b > 0 || c > 0)
                 return 2 * (a * b + a * c + b * c);
             else
                 return -1;
@@ -200,7 +200,7 @@ namespace MethodTasks
         #region Task 4. Üçbucaqlının daxilinə çəkilmiş çevrənin sahəsi
         static int Area(int a, int b, int c, int r)
         {
-            if (a > 0 && b > 0 && c > 0 && r > 0)
+            if (a > 0 || b > 0 || c > 0 || r > 0)
             {
                 return ((a + b + c) / 2) * r;
             }
