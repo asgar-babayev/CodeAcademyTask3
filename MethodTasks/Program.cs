@@ -18,7 +18,7 @@ namespace MethodTasks
             //Console.Write("Ədəd daxil edin: ");
             //int num = Convert.ToInt32(Console.ReadLine());
             //int result = NumLength(num);
-            //Print(result);
+            //Console.WriteLine(result);
             #endregion
 
             #region Task 3
@@ -87,81 +87,79 @@ namespace MethodTasks
         }
 
         #region Method Tasks
-        #region Task 1 və 2-nin Print metodu.
-        //static void Print(int result)
-        //{
-        //    if (result == -1)
-        //        Console.WriteLine("Ədəd 0 və ya mənfi ədəd ola bilməz.");
-        //    else
-        //        Console.WriteLine(result);
-        //}
-        #endregion
 
         #region Task 1. Min methodu yaradılır. Daxil olunan arrayın ən kiçik elementini tapır.
-        //static int Min(int arrSize)
-        //{
-        //    if (arrSize > 0)
-        //    {
-        //        int[] arr = new int[arrSize];
-        //        for (int i = 0; i < arr.Length; i++)
-        //        {
-        //            Console.Write($"{i + 1}. elementi daxil edin: ");
-        //            arr[i] = Convert.ToInt32(Console.ReadLine());
-        //        }
-        //        int minEl = arr[0];
-        //        for (int i = 0; i < arr.Length; i++)
-        //        {
-        //            if (arr[i] < minEl)
-        //            {
-        //                minEl = arr[i];
-        //            }
-        //        }
-        //        return minEl;
-        //    }
-        //    return -1;
-        //}
+        static int Min(int arrSize)
+        {
+            if (arrSize > 0)
+            {
+                int[] arr = new int[arrSize];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    Console.Write($"{i + 1}. elementi daxil edin: ");
+                    arr[i] = Convert.ToInt32(Console.ReadLine());
+                }
+                int minEl = arr[0];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (arr[i] < minEl)
+                    {
+                        minEl = arr[i];
+                    }
+                }
+                return minEl;
+            }
+            return -1;
+        }
         #endregion
 
         #region Task 2. NumLength methodu yaradılır. Daxil olunan ədədin rəqəmləri sayını tapır.
-        //static int NumLength(int num)
-        //{
-        //    int count = 0, result = 0;
-        //    if (num > 0)
-        //    {
-        //        while (num > 0)
-        //        {
-        //            result += (num % 10);
-        //            num = num / 10;
-        //            count++;
-        //        }
-        //        //foreach (int el in num.ToString()) <-- ToString metodu keçilmədiyi üçün bu hissəni comment-ə atdım -->
-        //        //{
-        //        //    count++;
-        //        //}
-        //        return count;
-        //    }
-        //    return -1;
-        //}
+        static int NumLength(int num)
+        {
+            int count = 1;
+
+            if (num > 0)
+            {
+                while (num >= 10)
+                {
+                    num = num / 10;
+                    count++;
+                }
+                //foreach (int el in num.ToString()) <-- ToString metodu keçilmədiyi üçün bu hissəni comment-ə atdım -->
+                //{
+                //    count++;
+                //}
+            }
+            else
+            {
+                while (num <= -10)
+                {
+                    num = num / 10;
+                    count++;
+                }
+            }
+            return count;
+        }
         #endregion
 
         #region Task 3. VowelLetter yaradılır. Daxil olunan mətndə neçə sait hərf olduğunu tapsın
-        //static int VowelLetter(string input)
-        //{
-        //    int count = 0;
-        //    foreach (var vowels in input.ToLower())
-        //    {
-        //        if (vowels == 'a' || vowels == 'e' || vowels == 'i' || vowels == 'o' || vowels == 'u') 
-        //            count++;
-        //    }
-        //    return count;
-        //}
-        //static void PrintVowelLetter(int result)
-        //{
-        //    if (result == 0)
-        //        Console.WriteLine("Bu text-də sait yoxdur.");
-        //    else
-        //        Console.WriteLine(result);
-        //}
+        static int VowelLetter(string input)
+        {
+            int count = 0;
+            foreach (var vowels in input.ToLower())
+            {
+                if (vowels == 'a' || vowels == 'e' || vowels == 'i' || vowels == 'o' || vowels == 'u')
+                    count++;
+            }
+            return count;
+        }
+        static void PrintVowelLetter(int result)
+        {
+            if (result == 0)
+                Console.WriteLine("Bu text-də sait yoxdur.");
+            else
+                Console.WriteLine(result);
+        }
         #endregion
         #endregion
 
@@ -210,45 +208,41 @@ namespace MethodTasks
         #endregion
 
         #region Task 5. HasLetter methodu yaradılır. Mətn, daha sonra axtarılan hərf və ya söz yazılır. Əgər axtarılan söz və ya hərf varsa ekranda bu bildirilir.
-        //static bool HasLetter(string inputText, char symbol)
-        //{
-        //    foreach (char text in inputText.ToLower())
-        //    {
-        //        if (text == symbol)
-        //        {
-        //            return true;
-        //        }
-        //    }
-        //    return false;
-        //}
+        static bool HasLetter(string inputText, char symbol)
+        {
+            foreach (char text in inputText.ToLower())
+            {
+                if (text == symbol)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
 
-        //static bool HasLetter(string inputText, string word)   //Overload tasklarına aid olduğu üçün overload ilə yazdım
-        //{                                                      //amma tək bu metod hər iki işi görür həm simvol həm də sözü tapır.
-        //    foreach (var text in inputText.ToLower())          // Yuxarıdakı metoda ehtiyac qalmır.
-        //    {
-        //        for (int i = 0; i < word.Length; i++)
-        //        {
-        //            if (word[i] == text)
-        //            {
-        //                return true;
-        //            }
-        //        }
-        //    }
-        //    return false;
-        //}
-        #endregion
-
-        #region Print. Sahə Taskları üçün print metodu
-        //static void Print(int result)
-        //{
-        //    if (result == -1)
-        //        Console.WriteLine("0 və mənfi ədəd ola bilməz.");
-        //    else
-        //        Console.WriteLine(result);
-        //}
+        static bool HasLetter(string inputText, string word)   //Overload tasklarına aid olduğu üçün overload ilə yazdım
+        {                                                      //amma tək bu metod hər iki işi görür həm simvol həm də sözü tapır.
+            foreach (var text in inputText.ToLower())          // Yuxarıdakı metoda ehtiyac qalmır.
+            {
+                for (int i = 0; i < word.Length; i++)
+                {
+                    if (word[i] == text)
+                    {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
         #endregion
 
         #endregion
-
+        static void Print(int result)
+        {
+            if (result == -1)
+                Console.WriteLine("0 və mənfi ədəd ola bilməz.");
+            else
+                Console.WriteLine(result);
+        }
     }
 }
