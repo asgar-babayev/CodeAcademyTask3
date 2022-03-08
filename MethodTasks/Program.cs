@@ -166,7 +166,7 @@ namespace MethodTasks
         #region Overload Tasks
 
         #region Task 1. Çevrənin sahəsi
-        static int Area(int radius)
+        static double Area(double radius)
         {
             if (radius > 0)
                 return radius * radius * 3;
@@ -176,7 +176,7 @@ namespace MethodTasks
         #endregion
 
         #region Task 2. Düzbucaqlının sahəsi
-        static int Area(int a, int b)
+        static double Area(double a, double b)
         {
             if (a > 0 || b > 0)
                 return a * b;
@@ -186,7 +186,7 @@ namespace MethodTasks
         #endregion
 
         #region Task 3. Düzbucaqlı paralelpipedin tam səthinin sahəsi
-        static int Area(int a, int b, int c)
+        static double Area(double a, double b, double c)
         {
             if (a > 0 || b > 0 || c > 0)
                 return 2 * (a * b + a * c + b * c);
@@ -196,7 +196,7 @@ namespace MethodTasks
         #endregion
 
         #region Task 4. Üçbucaqlının daxilinə çəkilmiş çevrənin sahəsi
-        static int Area(int a, int b, int c, int r)
+        static double Area(double a, double b, double c, double r)
         {
             if (a > 0 || b > 0 || c > 0 || r > 0)
             {
