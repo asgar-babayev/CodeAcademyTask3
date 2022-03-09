@@ -31,23 +31,23 @@ namespace MethodTasks
             #region Overload Tasks
 
             #region Task 1
-            //int radius = Convert.ToInt32(Console.ReadLine());
-            //int result = Area(radius);
+            //double radius = Convert.ToInt32(Console.ReadLine());
+            //double result = Area(radius);
             //Print(result);
             #endregion
 
             #region Task 2
-            //int firstSide = Convert.ToInt32(Console.ReadLine());
-            //int secondSide = Convert.ToInt32(Console.ReadLine());
-            //int result = Area(firstSide, secondSide);
+            //double firstSide = Convert.ToInt32(Console.ReadLine());
+            //double secondSide = Convert.ToInt32(Console.ReadLine());
+            //double result = Area(firstSide, secondSide);
             //Print(result);
             #endregion
 
             #region Task 3
-            //int firstSide = Convert.ToInt32(Console.ReadLine());
-            //int secondSide = Convert.ToInt32(Console.ReadLine());
-            //int thirdSide = Convert.ToInt32(Console.ReadLine());
-            //int result = Area(firstSide, secondSide, thirdSide);
+            //double firstSide = Convert.ToInt32(Console.ReadLine());
+            //double secondSide = Convert.ToInt32(Console.ReadLine());
+            //double thirdSide = Convert.ToInt32(Console.ReadLine());
+            //double result = Area(firstSide, secondSide, thirdSide);
             //Print(result);
             #endregion
 
@@ -237,7 +237,7 @@ namespace MethodTasks
         #endregion
 
         #endregion
-        static void Print(int result)
+        static void Print(double result)
         {
             if (result == -1)
                 Console.WriteLine("0 və mənfi ədəd ola bilməz.");
