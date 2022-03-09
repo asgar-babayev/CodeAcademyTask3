@@ -12,3 +12,17 @@ C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\Met
 C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.dll
 C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.pdb
 C:\Users\asger\Desktop\Tasks\MethodTasks\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.genruntimeconfig.cache
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.exe
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.deps.json
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.runtimeconfig.json
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.runtimeconfig.dev.json
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.dll
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\bin\Debug\netcoreapp3.1\MethodTasks.pdb
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.csproj.AssemblyReference.cache
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.AssemblyInfoInputs.cache
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.AssemblyInfo.cs
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.csproj.CoreCompileInputs.cache
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.dll
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.pdb
+C:\Users\tu7609td3\Desktop\CodeAcademyTask3\MethodTasks\obj\Debug\netcoreapp3.1\MethodTasks.genruntimeconfig.cache
